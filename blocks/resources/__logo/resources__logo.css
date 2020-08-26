@@ -7,3 +7,12 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+a .resources__logo {
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+a:hover .resources__logo {
+  opacity: 0.5;
+}
